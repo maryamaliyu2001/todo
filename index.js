@@ -13,9 +13,12 @@ const add2 = (x,y)=>( x + y)
 
 function multiply (x,y, z){
     return x * y * z
-}
+};
+
+const devide = (a, b)=>(a/b)
 
 console.log(add(2, 7));
 console.log(multiply(45, 9, 7));
 console.log(add1(6, 9))
 console.log(add2(9, 8))
+console.log(devide(10, 2))
